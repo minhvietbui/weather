@@ -1,0 +1,24 @@
+name: Weather Node App
+
+on:
+  push:
+    branches:
+      - main
+  pull_requests:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Use Nodejs
+        use: actions@setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Run Yarn
+        run: yarn
+      - name: Run tests
+        run: yarn test
