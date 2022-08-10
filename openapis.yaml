@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Dog API
+  version: 1.0.0
+servers:
+- url: https://dog.ceo/api
+paths:
+  /breed/{breadName}/images:
+    get:
+      description: Get images of dog breads
+      parameters:
+      - in: path
+        name: breadName
+        schema:
+          type: string
+          example: hound
+        required: true
+      responses:
+         '200':
+            description: A list of dog iamges
+            content:
+              application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: array
+                    items: string
