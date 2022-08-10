@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  pull_requests:
+  pull_request:
     branches:
       - main
 
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Use Nodejs
-        use: actions@setup-node@v1
+        uses: actions@setup-node@v1
         with:
           node-version: '16.x'
       - name: Run Yarn
