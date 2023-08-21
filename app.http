@@ -1,0 +1,7 @@
+@host = localhost
+@port = 8000
+@contentType = application/json
+
+###
+GET http://{{host}}:{{port}}
+Content-Type: {{contentType}}
