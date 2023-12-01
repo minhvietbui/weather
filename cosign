@@ -1,0 +1,2424 @@
+MEQCIFpbflJge6FzBDSsv+glAyvsyTFK01/p+FMRfbqP8bRYAiAs8Jijib5fMJKKmKccFkYAoNP3DqiMdslq7ba6wMJH+A==
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEiaPSnjWXRmN6PJp3fIf8ROYC/tB+
+jNdh5j+yhwNMomjXBylKv/DpT/B4zukL5LFVwAx9gf5ByhlYdWKZ8O6U5Q==
+-----END PUBLIC KEY-----
+{
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": ".",
+ "spdxVersion": "SPDX-2.2",
+ "creationInfo": {
+  "created": "2022-06-10T06:59:14.167412Z",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.46.3"
+  ],
+  "licenseListVersion": "3.17"
+ },
+ "dataLicense": "CC0-1.0",
+ "documentNamespace": "https://anchore.com/syft/dir/c644b8fa-e091-4a7d-9b71-619e168cfa85",
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-4595ea51c82bc0a1",
+   "name": "accepts",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:accepts:accepts:1.3.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:accepts:1.3.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/accepts@1.3.8",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.3.8"
+  },
+  {
+   "SPDXID": "SPDXRef-ce435fdb326ccb5c",
+   "name": "array-flatten",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:array-flatten:array-flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:array-flatten:array_flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:array_flatten:array-flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:array_flatten:array_flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:array:array-flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:array:array_flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:array-flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:array_flatten:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/array-flatten@1.1.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-a9e561e9afc5eb34",
+   "name": "body-parser",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:body-parser:body-parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:body-parser:body_parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:body_parser:body-parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:body_parser:body_parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:body:body-parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:body:body_parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:body-parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:body_parser:1.20.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/body-parser@1.20.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.20.0"
+  },
+  {
+   "SPDXID": "SPDXRef-c8cf41deeb9c5bef",
+   "name": "bytes",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bytes:bytes:3.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:bytes:3.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/bytes@3.1.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "3.1.2"
+  },
+  {
+   "SPDXID": "SPDXRef-780704dbe48f693f",
+   "name": "call-bind",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:call-bind:call-bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:call-bind:call_bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:call_bind:call-bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:call_bind:call_bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:call:call-bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:call:call_bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:call-bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:call_bind:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/call-bind@1.0.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.2"
+  },
+  {
+   "SPDXID": "SPDXRef-45c83077c78af682",
+   "name": "content-disposition",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content-disposition:content-disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content-disposition:content_disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content_disposition:content-disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content_disposition:content_disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content:content-disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content:content_disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:content-disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:content_disposition:0.5.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/content-disposition@0.5.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.5.4"
+  },
+  {
+   "SPDXID": "SPDXRef-75af1edf6b5d8152",
+   "name": "content-type",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content-type:content-type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content-type:content_type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content_type:content-type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content_type:content_type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content:content-type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:content:content_type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:content-type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:content_type:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/content-type@1.0.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.4"
+  },
+  {
+   "SPDXID": "SPDXRef-4a7d2ba345a55c19",
+   "name": "cookie",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie:cookie:0.5.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:cookie:0.5.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/cookie@0.5.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.5.0"
+  },
+  {
+   "SPDXID": "SPDXRef-68eb212eef81bfc7",
+   "name": "cookie-signature",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie-signature:cookie-signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie-signature:cookie_signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie_signature:cookie-signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie_signature:cookie_signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie:cookie-signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:cookie:cookie_signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:cookie-signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:cookie_signature:1.0.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/cookie-signature@1.0.6",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.6"
+  },
+  {
+   "SPDXID": "SPDXRef-9b70f0fcc7862add",
+   "name": "debug",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:debug:debug:2.6.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:debug:2.6.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/debug@2.6.9",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.6.9"
+  },
+  {
+   "SPDXID": "SPDXRef-f135f374d9f6ad24",
+   "name": "depd",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:depd:depd:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:depd:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/depd@2.0.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-10b6fe2f15069bef",
+   "name": "destroy",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:destroy:destroy:1.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:destroy:1.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/destroy@1.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-dd55893e84bdcb64",
+   "name": "ee-first",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ee-first:ee-first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ee-first:ee_first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ee_first:ee-first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ee_first:ee_first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ee:ee-first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ee:ee_first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:ee-first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:ee_first:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/ee-first@1.1.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-cd7d810086e795d0",
+   "name": "encodeurl",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:encodeurl:encodeurl:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:encodeurl:1.0.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/encodeurl@1.0.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.2"
+  },
+  {
+   "SPDXID": "SPDXRef-fff435718c56d8ea",
+   "name": "escape-html",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:escape-html:escape-html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:escape-html:escape_html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:escape_html:escape-html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:escape_html:escape_html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:escape:escape-html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:escape:escape_html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:escape-html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:escape_html:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/escape-html@1.0.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.3"
+  },
+  {
+   "SPDXID": "SPDXRef-2081ccd1b5079631",
+   "name": "etag",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:etag:etag:1.8.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:etag:1.8.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/etag@1.8.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.8.1"
+  },
+  {
+   "SPDXID": "SPDXRef-8552999f8464ed8d",
+   "name": "express",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:express:express:4.18.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:express:4.18.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/express@4.18.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "4.18.1"
+  },
+  {
+   "SPDXID": "SPDXRef-b486e81b9e0dfe70",
+   "name": "finalhandler",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:finalhandler:finalhandler:1.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:finalhandler:1.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/finalhandler@1.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-d8c500945f3dcf04",
+   "name": "forwarded",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:forwarded:forwarded:0.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:forwarded:0.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/forwarded@0.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-11a7476e5fa4c72b",
+   "name": "fresh",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fresh:fresh:0.5.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:fresh:0.5.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/fresh@0.5.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.5.2"
+  },
+  {
+   "SPDXID": "SPDXRef-58acf7b381b3a07d",
+   "name": "function-bind",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:function-bind:function-bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:function-bind:function_bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:function_bind:function-bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:function_bind:function_bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:function:function-bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:function:function_bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:function-bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:function_bind:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/function-bind@1.1.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-e5667103ddc15f45",
+   "name": "get-intrinsic",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:get-intrinsic:get-intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:get-intrinsic:get_intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:get_intrinsic:get-intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:get_intrinsic:get_intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:get:get-intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:get:get_intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:get-intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:get_intrinsic:1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/get-intrinsic@1.1.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-b1ed3aa4716a3543",
+   "name": "has",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has:has:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:has:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/has@1.0.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.3"
+  },
+  {
+   "SPDXID": "SPDXRef-81ac9b21e754b7c8",
+   "name": "has-symbols",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has-symbols:has-symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has-symbols:has_symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has_symbols:has-symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has_symbols:has_symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has:has-symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:has:has_symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:has-symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:has_symbols:1.0.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/has-symbols@1.0.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.3"
+  },
+  {
+   "SPDXID": "SPDXRef-ef0915a972423db3",
+   "name": "http-errors",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:http-errors:http-errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:http-errors:http_errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:http_errors:http-errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:http_errors:http_errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:http:http-errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:http:http_errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:http-errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:http_errors:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/http-errors@2.0.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-404f10eea18f4ca9",
+   "name": "iconv-lite",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:iconv-lite:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:iconv-lite:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:iconv_lite:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:iconv_lite:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:iconv:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:iconv:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/iconv-lite@0.4.24",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.4.24"
+  },
+  {
+   "SPDXID": "SPDXRef-92f3291b773ef07a",
+   "name": "inherits",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:inherits:inherits:2.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:inherits:2.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/inherits@2.0.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.0.4"
+  },
+  {
+   "SPDXID": "SPDXRef-27f1e7b90e2bd39",
+   "name": "ipaddr.js",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ipaddr.js:ipaddr.js:1.9.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:ipaddr.js:1.9.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/ipaddr.js@1.9.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.9.1"
+  },
+  {
+   "SPDXID": "SPDXRef-480319790545ba99",
+   "name": "media-typer",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:media-typer:media-typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:media-typer:media_typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:media_typer:media-typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:media_typer:media_typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:media:media-typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:media:media_typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:media-typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:media_typer:0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/media-typer@0.3.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.3.0"
+  },
+  {
+   "SPDXID": "SPDXRef-6d6270ebd858542b",
+   "name": "merge-descriptors",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:merge-descriptors:merge-descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:merge-descriptors:merge_descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:merge_descriptors:merge-descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:merge_descriptors:merge_descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:merge:merge-descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:merge:merge_descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:merge-descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:merge_descriptors:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/merge-descriptors@1.0.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.1"
+  },
+  {
+   "SPDXID": "SPDXRef-6cc2a8c1571126bd",
+   "name": "methods",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:methods:methods:1.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:methods:1.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/methods@1.1.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.1.2"
+  },
+  {
+   "SPDXID": "SPDXRef-594b7b5309777bd7",
+   "name": "mime",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime:mime:1.6.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:mime:1.6.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/mime@1.6.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.6.0"
+  },
+  {
+   "SPDXID": "SPDXRef-2580953736f387e5",
+   "name": "mime-db",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime-db:mime-db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime-db:mime_db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime_db:mime-db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime_db:mime_db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime:mime-db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime:mime_db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:mime-db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:mime_db:1.52.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/mime-db@1.52.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.52.0"
+  },
+  {
+   "SPDXID": "SPDXRef-c98da52a735e2813",
+   "name": "mime-types",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime-types:mime-types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime-types:mime_types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime_types:mime-types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime_types:mime_types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime:mime-types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mime:mime_types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:mime-types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:mime_types:2.1.35:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/mime-types@2.1.35",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.1.35"
+  },
+  {
+   "SPDXID": "SPDXRef-d4837e486ee7be6f",
+   "name": "ms",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ms:ms:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:ms:2.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/ms@2.0.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-69e6960e2a9cb5b4",
+   "name": "negotiator",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:negotiator:negotiator:0.6.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:negotiator:0.6.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/negotiator@0.6.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.6.3"
+  },
+  {
+   "SPDXID": "SPDXRef-35ba0ac713e1d9c2",
+   "name": "object-inspect",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:object-inspect:object-inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:object-inspect:object_inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:object_inspect:object-inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:object_inspect:object_inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:object:object-inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:object:object_inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:object-inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:object_inspect:1.12.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/object-inspect@1.12.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.12.2"
+  },
+  {
+   "SPDXID": "SPDXRef-54eada3936591c5f",
+   "name": "on-finished",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:on-finished:on-finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:on-finished:on_finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:on_finished:on-finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:on_finished:on_finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:on:on-finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:on:on_finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:on-finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:on_finished:2.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/on-finished@2.4.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.4.1"
+  },
+  {
+   "SPDXID": "SPDXRef-b136d5a2eed98ba9",
+   "name": "parseurl",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:parseurl:parseurl:1.3.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:parseurl:1.3.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/parseurl@1.3.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.3.3"
+  },
+  {
+   "SPDXID": "SPDXRef-fbf550da9830253a",
+   "name": "path-to-regexp",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path-to-regexp:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path-to-regexp:path_to_regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path_to_regexp:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path_to_regexp:path_to_regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path-to:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path-to:path_to_regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path_to:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path_to:path_to_regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:path:path_to_regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:path-to-regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:path_to_regexp:0.1.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/path-to-regexp@0.1.7",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.1.7"
+  },
+  {
+   "SPDXID": "SPDXRef-b548aae7b6c35156",
+   "name": "proxy-addr",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:proxy-addr:proxy-addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:proxy-addr:proxy_addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:proxy_addr:proxy-addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:proxy_addr:proxy_addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:proxy:proxy-addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:proxy:proxy_addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:proxy-addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:proxy_addr:2.0.7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/proxy-addr@2.0.7",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.0.7"
+  },
+  {
+   "SPDXID": "SPDXRef-9713775bb5359cea",
+   "name": "qs",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:qs:qs:6.10.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:qs:6.10.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/qs@6.10.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "6.10.3"
+  },
+  {
+   "SPDXID": "SPDXRef-98d2859ed87bd7",
+   "name": "range-parser",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:range-parser:range-parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:range-parser:range_parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:range_parser:range-parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:range_parser:range_parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:range:range-parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:range:range_parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:range-parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:range_parser:1.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/range-parser@1.2.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.2.1"
+  },
+  {
+   "SPDXID": "SPDXRef-65f072ff069611a5",
+   "name": "raw-body",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:raw-body:raw-body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:raw-body:raw_body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:raw_body:raw-body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:raw_body:raw_body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:raw:raw-body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:raw:raw_body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:raw-body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:raw_body:2.5.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/raw-body@2.5.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.5.1"
+  },
+  {
+   "SPDXID": "SPDXRef-9fc0fb15592e8c4b",
+   "name": "safe-buffer",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safe-buffer:safe-buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safe-buffer:safe_buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safe_buffer:safe-buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safe_buffer:safe_buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safe:safe-buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safe:safe_buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:safe-buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:safe_buffer:5.2.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/safe-buffer@5.2.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "5.2.1"
+  },
+  {
+   "SPDXID": "SPDXRef-b1c72c810076765c",
+   "name": "safer-buffer",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safer-buffer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safer-buffer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safer_buffer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safer_buffer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:safer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/safer-buffer@2.1.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.1.2"
+  },
+  {
+   "SPDXID": "SPDXRef-41a9bb922f95a312",
+   "name": "send",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:send:send:0.18.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:send:0.18.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/send@0.18.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "0.18.0"
+  },
+  {
+   "SPDXID": "SPDXRef-222a2c29200f374e",
+   "name": "serve-static",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:serve-static:serve-static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:serve-static:serve_static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:serve_static:serve-static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:serve_static:serve_static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:serve:serve-static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:serve:serve_static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:serve-static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:serve_static:1.15.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/serve-static@1.15.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.15.0"
+  },
+  {
+   "SPDXID": "SPDXRef-999fa78f3bb1f0e4",
+   "name": "setprototypeof",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:setprototypeof:setprototypeof:1.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:setprototypeof:1.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/setprototypeof@1.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-138e3f49160e16a5",
+   "name": "side-channel",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:side-channel:side-channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:side-channel:side_channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:side_channel:side-channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:side_channel:side_channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:side:side-channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:side:side_channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:side-channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:side_channel:1.0.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/side-channel@1.0.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.4"
+  },
+  {
+   "SPDXID": "SPDXRef-6a6fe87e728dfa38",
+   "name": "statuses",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:statuses:statuses:2.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:statuses:2.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/statuses@2.0.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "2.0.1"
+  },
+  {
+   "SPDXID": "SPDXRef-fc9327d8010422c5",
+   "name": "toidentifier",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:toidentifier:toidentifier:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:toidentifier:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/toidentifier@1.0.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.1"
+  },
+  {
+   "SPDXID": "SPDXRef-31d989f4750c4bf7",
+   "name": "type-is",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:type-is:type-is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:type-is:type_is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:type_is:type-is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:type_is:type_is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:type:type-is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:type:type_is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:type-is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:type_is:1.6.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/type-is@1.6.18",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.6.18"
+  },
+  {
+   "SPDXID": "SPDXRef-263d6e1385758b85",
+   "name": "unpipe",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:unpipe:unpipe:1.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:unpipe:1.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/unpipe@1.0.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-9f0b1000529fa6f6",
+   "name": "utils-merge",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:utils-merge:utils-merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:utils-merge:utils_merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:utils_merge:utils-merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:utils_merge:utils_merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:utils:utils-merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:utils:utils_merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:utils-merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:utils_merge:1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/utils-merge@1.0.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.0.1"
+  },
+  {
+   "SPDXID": "SPDXRef-d83d187915bfd3f5",
+   "name": "vary",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:vary:vary:1.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:*:vary:1.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:npm/vary@1.1.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed node module manifest file: package-lock.json",
+   "versionInfo": "1.1.2"
+  }
+ ]
+}
